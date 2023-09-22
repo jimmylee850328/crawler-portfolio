@@ -15,4 +15,5 @@ pdm run python ${python_name}.py # for example chart-downloader
 
 ### Output Images
 1. cwa
-    ![cwa](https://imgur.com/L2fTg3m.png)
+    ![cwa-chart](https://imgur.com/L2fTg3m.png)
+    ![cwa-svg](https://i.imgur.com/Tdri8uU.png)

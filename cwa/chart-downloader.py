@@ -1,5 +1,6 @@
-import imgkit
 import time
+
+import imgkit
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -29,4 +30,4 @@ for img_tag in img_tags:
     img_tag['src'] = "https://www.cwa.gov.tw" + img_tag['src']
 
 # 下載成 output.png
-imgkit.from_string(soup.prettify(), "./output.png")
+imgkit.from_string(soup.prettify(), "./chart-output.png")
